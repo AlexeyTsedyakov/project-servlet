@@ -1,0 +1,47 @@
+/* Стиль для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Стиль для заголовка */
+h1 {
+    color: #333;
+}
+
+/* Стиль для таблицы игры */
+table {
+    margin: 0 auto;
+}
+
+/* Стиль для ячеек таблицы */
+td {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #333;
+    cursor: pointer;
+    background-color: #33A8FF;
+    color: white;
+}
+
+/* Стиль для ячеек, над которыми пользователь навел курсор */
+td:hover {
+    background-color: #2270a8;
+}
+
+/* Стиль для кнопок */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Стиль для кнопок, над которыми пользователь навел курсор */
+button:hover {
+    background-color: #45a049;
+}
